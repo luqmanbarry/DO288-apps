@@ -1,6 +1,7 @@
 apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 spec:
+  replicas: 1
   template:
     spec:
       containers:
